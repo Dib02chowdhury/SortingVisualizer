@@ -1,0 +1,92 @@
+h1 {
+	text-align: center;
+	padding-top: 1%;
+	margin:0;
+}
+
+body {
+	background: #212121;
+	margin:0;
+	font-family: 'Baloo Bhai 2', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+button, select
+{
+	font-family: 'Baloo Bhai 2', cursive;
+	font-weight: bold;
+	font-size: 100%;
+	background: white;
+	cursor: pointer;
+	transition: all 0.5s;
+	border: 2px solid white;
+
+}
+
+
+button:hover, select:hover{
+	color:white;
+	background: #212121;
+
+}
+
+#size
+{
+	color: green;
+}
+
+#heading
+{
+	/*background: #9e0077;*/
+	background: #212121;
+
+}
+
+.toolbox {
+	text-align: center;
+	padding: 1% 0;
+}
+
+.tools {
+	width: 15%;
+	margin: .5% 1%;
+	text-align: center;
+}
+
+.range {
+	width: 10%;
+}
+
+
+
+.special {
+	float: left;
+	background: red;
+	display: inline-block;
+	opacity: 1;
+}
+
+#bar {
+	text-align: center;
+	height:550px;
+	border: 5px solid #999999;
+	padding-top: 2px; 
+	margin: 0 50px;
+}
+
+.red {
+	background: #ff0080;
+}
+
+.yellow {
+	background: #fbff00;
+}
+
+.blue {
+	background: #ad0dd9;
+}
+
+.green {
+	background: #009e15;
+} 

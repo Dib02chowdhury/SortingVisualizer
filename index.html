@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Sorting Visulizer</title>
+</head>
+
+<body>
+    <div id="heading">
+        <div>
+            <h1 >Sorting Visualizer</h1>
+        </div>
+        <div id="nav-bar">
+            <div class="toolbox">
+                <button id="new" class="tools">New Array</button>
+
+                <span class="range tools">Size <input type="range" id="size" min=10 max=150 value=80>
+                </span>
+
+                <span class="range tools">Speed <input type="range" id="speed" min=1 max=10 value=6>
+                </span>
+                <select id="method" class="tools">
+                    <option value="none">Choose Method</option>
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="quick">Quick Sort</option>
+                    <option value="merge">Merge Sort</option>
+                </select>
+                <button id="sort" class="tools">Sort</button>
+            </div>
+        </div>
+        <div id="bar"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bubble.js"></script>
+    <script type="text/javascript" src="js/selectionSort.js"></script>
+    <script type="text/javascript" src="js/insertionSort.js"></script>
+    <script type="text/javascript" src="js/quickSort.js"></script>
+
+
+</body>
+
+</html>
